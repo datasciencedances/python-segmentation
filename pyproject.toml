@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycusseg"
-version = "0.1.0"
+version = "0.1.1"
 description = "Customer Segmentation"
 authors = ["Lê Huỳnh Đức <lhduc94@gmail.com>"]
 license = "MIT"
@@ -17,6 +17,7 @@ seaborn = "^0.13.2"
 setuptools = "^80.9.0"
 numpy = "1.26"
 dython = "^0.7.9"
+kmodes = "^0.12.2"
 
 [tool.poetry.group.dev.dependencies]
 notebook = "^7.4.3"

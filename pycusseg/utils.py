@@ -2,13 +2,13 @@ import yaml
 
 def load_config_yaml(file_path):
     """
-    Đọc file YAML và trả về nội dung dưới dạng dict.
+    Load configuration from a YAML file.
 
     Parameters:
-        file_path (str): Đường dẫn đến file .yaml hoặc .yml
+        file_path (str): Path to the YAML file.
 
     Returns:
-        dict: Nội dung file YAML dưới dạng dictionary
+        dict: Configuration loaded from the YAML file.
     """
     with open(file_path, 'r') as file:
         config = yaml.safe_load(file)
