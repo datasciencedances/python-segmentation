@@ -22,8 +22,8 @@ dython = "^0.7.9"
 notebook = "^7.4.3"
 
 [build-system]
-requires = ["poetry-core", "setuptools", "wheel"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.urls]
-
+repository = "https://github.com/datasciencedances/pycusseg"
