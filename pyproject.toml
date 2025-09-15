@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pycusseg"
+name = "pysegmentation"
 version = "0.1.1"
 description = "Customer Segmentation"
 authors = ["Lê Huỳnh Đức <lhduc94@gmail.com>"]
